@@ -1,0 +1,25 @@
+---- 파일 설명
+* main_app.py
+ 무료서버 업로드될 Flask를 이용한 식단메뉴 자동 수집 프로그램 파일
+
+* listUp_all_meal.py
+    로컬에서 2023년 1월부터 현재까지 전체 메뉴 수집하는 프로그램
+
+
+
+---- 잡다한 내용들 ----
+
+- NAVER ORC API
+- NAVER BAND 이미지 가져오기
+■ HTTP 통신
+■ 받아온 json에서 가장 최신, 업로드날짜, 이미지 url 가져오기
+
+
+
+0917
+- pdf to image(jpg or png)
+- image 배경 지우고 원본만 남기기
+- image 파일 naver cloud 어떻게 보내지 -> 바이너리 파일로 시도
+- 지금 년월 기준으로 해당 주차 가져와서 "해당월-해당주차.csv"파일 만들기
+
+
